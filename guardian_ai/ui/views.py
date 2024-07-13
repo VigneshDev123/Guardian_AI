@@ -109,8 +109,8 @@ def upload_video(request):
                 print("Longitude:", longitude)
                 subject = "Flood Alert"
                 body = "Geolocation:Latitude:"+latitude+"longitude:"+longitude
-                sender = "ramakrishnanvignesh705@gmail.com"
-                password = "jrgs nkrg kfsu cddk"
+                sender = "yourmailid@gmail.com"
+                password = "********"
                 send_email(subject, body, sender, recipients["flood"], password, video_path)
               else:
                 disaster_type="cyclone"
